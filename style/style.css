@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+#survey-form {
+    background-color: white;
+    border-radius: 10px;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    height : 90%; 
+}
+
+#description {
+    padding-top: 30px;
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+/* input {
+    width: 150px;
+    
+    box-sizing: border-box;
+} */
+textarea {
+    vertical-align: top;
+}
+input[type=checkbox] {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border: 1px solid gray;
+    /* Adjusts the position of the checkboxes on the text baseline */ 
+    vertical-align: -2px;
+    /* Set here so that Windows' High-Contrast Mode can override */
+    color: green;
+  }
